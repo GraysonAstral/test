@@ -1,0 +1,41 @@
+title: 身分驗證與授權
+description: 簡介身分驗證與授權
+base: /auth-notes/
+dest: dist
+themeConfig:
+  sidebar:
+    - ['/src/', '簡介']
+    - '/src/notational-conventions'
+    - '/src/terminology'
+    - title: 'SAML'
+      children:
+        - ['/src/saml/', '簡介']
+    - title: 'JWT'
+      children:
+        - ['/src/jwt/', '簡介']
+        - ['/src/jwt/terminology', '術語']
+        - '/src/jwt/jwa'
+        - '/src/jwt/jwe'
+        - '/src/jwt/jwk'
+        - '/src/jwt/jws'
+        - '/src/jwt/jwt'
+    - title: 'OAuth 2.0'
+      children:
+        - ['/src/oauth2/', '簡介']
+        - '/src/oauth2/pkce'
+        - '/src/oauth2/native-apps'
+    - title: 'OpenID Connect'
+      children:
+        - ['/src/oidc/', '簡介']
+        - ['/src/oidc/terminology', '術語']
+    - title: 'Cryptography'
+      children:
+        - ['/src/cryptography/', 'Cryptography']
+    - title: 'ORY Hydra'
+      children:
+        - ['/src/hydra/', '簡介']
+        - '/src/hydra/user-login-and-consent-flow'
+  repo: "MilesChou/gitbook-auth-notes"
+  repoLabel: "GitHub"
+  editLinks: true
+  editLinkText: 編輯這個頁面
