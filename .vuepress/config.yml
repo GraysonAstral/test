@@ -1,6 +1,6 @@
 title: 身分驗證與授權
 description: 簡介身分驗證與授權
-base: /auth-notes/
+base: /test/
 dest: dist
 themeConfig:
   sidebar:
@@ -35,7 +35,7 @@ themeConfig:
       children:
         - ['/src/hydra/', '簡介']
         - '/src/hydra/user-login-and-consent-flow'
-  repo: "MilesChou/gitbook-auth-notes"
+  repo: "graysonastral/test"
   repoLabel: "GitHub"
   editLinks: true
   editLinkText: 編輯這個頁面
